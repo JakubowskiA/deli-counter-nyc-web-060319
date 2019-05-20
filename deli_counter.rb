@@ -18,7 +18,6 @@ def take_a_number(line, person)
 end
 
 def now_serving(line)
-  line_number = katz_deli.count
     if line.size == 0
       puts "There is nobody waiting to be served!"
     else
